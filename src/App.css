@@ -2,3 +2,47 @@ html {
   background-color: #F0EBE3;
   color: #333;
 }
+
+.searchContainer {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBox {
+  border-style: solid;
+  height: 42px;
+  font-size: 16px;
+  padding-left: 20px;
+  background-color: #F0EBE0;
+  border-width: 1px;
+  border-radius: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+}
+
+.submitButton {
+  height: 46px;
+  width: 84px;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;  
+  background-color: #FFC6C6;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  cursor: pointer;
+}
+
+.resultContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.definitionContainer {
+  max-width: 500px;
+}
