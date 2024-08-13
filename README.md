@@ -1,7 +1,9 @@
-# Intro
+# Dictionary
 ![Alt text](./architecture.drawio.png)
 
 Static React App created to learn the AWS CI/CD ecosystem
+
+View app at: https://d2zw4agwbpj36n.cloudfront.net/
 
 ## Stack
 - ReactJS
@@ -11,6 +13,6 @@ Static React App created to learn the AWS CI/CD ecosystem
     - AWS CodeCommit
     - AWS CodeBuild
     - AWS CodeDeploy
-    
+
 ## API
 - Used meetDeveloper's free dictionary API (https://github.com/meetDeveloper/freeDictionaryAPI)
