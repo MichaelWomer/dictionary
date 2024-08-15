@@ -63,14 +63,17 @@ function App() {
       
       
       
-      : <h1>Enter word a word to view its meanings!</h1>
+      : <h1>Enter a word to view its meanings</h1>
       
       }
       </div>
-    : <h1>Word could not be found. Try again!</h1>
+    : <h1>Word could not be found, try again</h1>
     }
     </div>
-     
+     <div className='navbar'>
+      <button className='navButton'><a href='https://github.com/MichaelWomer/dictionary' target="_blank">GitHub</a></button>
+      <button className='navButton'><a href='https://dictionaryapi.dev/' target="_blank">Dictionary API</a></button>
+     </div>
     </div>
   );
 }
